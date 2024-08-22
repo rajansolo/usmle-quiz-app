@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "./", // Add this line to set the base path
   build: {
-    outDir: "dist",
+    outDir: "build",
     assetsDir: "assets",
   },
 });
